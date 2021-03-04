@@ -1,7 +1,7 @@
 Summary
 =======
 
-This plugin will cause "gedit" to immediately and automatically stash all 
+This plugin will cause "gedit" to immediately launch and automatically stash all 
 unsaved documents. 
 
 
@@ -13,7 +13,7 @@ Once this plugin is installed and enabled (within the plugin listing, in
 document is saved by the user, its file in temporary storage will be deleted.
 If all unsaved documents are saved by the user and all temporary files are
 removed, the storage directory will be removed. All old temporary files will 
-be periodically cleaned-up (currently, every four weeks).
+be periodically cleaned-up (currently, they are cleaned up every four weeks).
 
 Your unsaved documents will be stored under a directory named after the 
 date/time that your "gedit" session was started. For example:
